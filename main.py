@@ -25,4 +25,4 @@ for query in queries:
     results.sort(key=lambda x: (-x[1], x[0]))
     
     result_final = [str(result[0]) for result in results]
-    print(" ".join(result_final))
+    print(f"[{', '.join(result_final)}]")
