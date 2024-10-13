@@ -27,4 +27,4 @@ for query in queries:
     results.sort(key=lambda x: (-x[1], x[0]))
     
     result_final = [str(result[0]) for result in results]
-    print("wynik dla '", query, "':", " ".join(result_final))
+    print(" ".join(result_final))
